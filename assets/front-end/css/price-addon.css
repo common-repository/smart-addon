@@ -1,0 +1,223 @@
+/* ================= Pricing Area ==================== */
+.single-pricing-boxes {
+  border-radius: 10px;
+  background-color: rgb(230, 237, 246);
+  box-shadow: 0px 0px 20.25px 4.75px rgba(0, 0, 0, 0.12);
+}
+
+.pricing-top-area,
+.pricing-bottom-area {
+  min-height: 735px;
+  display: flex;
+  align-items: center;
+}
+
+.top-wide-wrap,
+.bottom-wide-wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 44%;
+  background: #4e4e91;
+  padding: 75px;
+  min-height: 735px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.top-wide-bg {
+  margin-right: -190px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20.25px 4.75px rgba(0, 0, 0, 0.12);
+}
+
+.bottom-wide-wrap {
+  left: auto;
+  right: 0;
+  background: #ff4500;
+  border-radius: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  z-index: 2;
+}
+
+.bottom-wide-bg {
+  height: 585px;
+  width: 845px;
+  margin-left: -190px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20.25px 4.75px rgba(0, 0, 0, 0.12);
+  position: relative;
+  z-index: 1;
+}
+
+.bottom-wide-bg:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4e4e91;
+  opacity: 0.8;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+ul.right-list li .right-list-img {
+  width: 54px;
+  height: 54px;
+  display: inline-block;
+  background: #ff4500;
+  border-radius: 4px;
+  line-height: 54px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+ul.right-list li .right-list-img img {
+  max-width: 30px;
+}
+
+ul.right-list li {
+  background: #e6edf6;
+  margin-bottom: 25px;
+  padding: 18px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+ul.right-list li:last-child {
+  margin-bottom: 0;
+}
+
+ul.right-list {
+  margin-top: 50px;
+}
+
+ul.right-list li:hover {
+  background: #fff;
+  box-shadow: 0px 0px 23.1px 6.9px rgba(0, 0, 0, 0.12);
+}
+
+.play-icon {
+  position: absolute;
+  width: 144px;
+  height: 144px;
+  border-radius: 50%;
+  background: rgba(200, 78, 50, 0.65);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-icon a {
+  color: #fff;
+  font-size: 40px;
+  display: inline-block;
+  height: 123px;
+  width: 123px;
+  background: #ff4500;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 123px;
+}
+
+.pricing-bottom-left .boxed-btn {
+  padding: 20px 25px;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+
+.price-title {
+  position: relative;
+  z-index: 1;
+  padding-top: 50px;
+  min-height: 271px;
+}
+
+.price-title p,
+.price-title h3 {
+  color: #ffffff;
+}
+
+.price-title:before,
+.price-title:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: url(../../img/pricing01.svg);
+  height: 271px;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.price-title:after {
+  background: url(../../img/pricing02.svg);
+  z-index: -2;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pricing-feature li {
+  border-bottom: 1px solid #ff4500;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.pricing-feature li img {
+  width: 12px;
+  margin-right: 5px;
+}
+
+.pricing-feature .border-btn {
+  padding: 22px;
+}
+
+
+.pricing-feature li img {
+    width: 12px;
+    margin-right: 5px;
+}
+
+.pricing-feature ul{
+  padding-left: 0;
+  list-style: none;
+} 
+
+.border-btn {
+    padding: 15px 18px;
+    font-size: 18px;
+    line-height: 16px;
+    background-color: transparent;
+    border: 1px solid #ff4500;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #282828;
+}
+
+.border-btn:hover {
+    box-shadow: 0px 0px 13.5px 1.5px rgba(0, 0, 0, 0.17);
+    background-color: #ff4500;
+    color: #ffffff;
+}
+
+.p-b-50, .p-tb-50, .p-all-50 {
+    padding-bottom: 50px;
+}

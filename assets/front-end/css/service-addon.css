@@ -1,0 +1,111 @@
+/* ================= Exclusive Feature ==================== */
+.single-exclusive-box {
+  border-radius: 10px;
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.single-exclusive-box:before,
+.single-exclusive-box:after {
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.single-exclusive-box:before {
+  background-color: #adadd3;
+  width: 170px;
+  height: 170px;
+  right: -85px;
+  top: -85px;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.single-exclusive-box:after {
+  background-color: #ff8e64;
+  width: 154px;
+  height: 154px;
+  right: -77px;
+  top: -77px;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.single-exclusive-box .exclusive-img {
+  border-radius: 4px;
+  background-color: #ff4500;
+  width: 68px;
+  height: 68px;
+  text-align: center;
+  line-height: 68px;
+}
+
+.single-exclusive-box .learn-more {
+  font-size: 18px;
+  color: #212122;
+  margin-top: 30px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.single-exclusive-box .learn-more:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  background: #ed213a;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.single-exclusive-box:hover {
+  background-color: #ff4500;
+  color: #ffffff;
+  box-shadow: 0px 0px 11.76px 2.24px rgba(0, 0, 0, 0.14);
+}
+
+.single-exclusive-box:hover h4,
+.single-exclusive-box:hover a {
+  color: #ffffff;
+}
+
+.single-exclusive-box:hover .learn-more:after,
+.single-exclusive-box:hover .exclusive-img {
+  background: #ffffff;
+}
+
+.single-exclusive-box:hover:after,
+.single-exclusive-box:hover:before {
+  width: 0;
+  height: 0;
+}
+.p-r-38, .p-lr-38, .p-all-38 {
+    padding-right: 38px;
+}
+
+.p-l-38, .p-lr-38, .p-all-38 {
+    padding-left: 38px;
+}
+
+.p-b-38, .p-tb-38, .p-all-38 {
+    padding-bottom: 38px;
+}
+.p-t-38, .p-tb-38, .p-all-38 {
+    padding-top: 38px;
+}
+
+.m-b-30, .m-tb-30, .m-all-30 {
+    margin-bottom: 30px;
+}

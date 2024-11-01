@@ -1,0 +1,189 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Addon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-06 12:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.0.7"
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:132
+msgid " 100 MB Disk Space"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:38
+msgid " Pricing "
+msgstr ""
+
+#: inc/elementor/widgets/class-service-elementor-widget.php:38
+msgid " Service "
+msgstr ""
+
+#. 1: Plugin name 2: Elementor
+#: inc/elementor/class-elementor-widgets-init.php:150
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. 1: Plugin name 2: Elementor 3: Required Elementor version
+#. 1: Plugin name 2: PHP 3: Required PHP version
+#: inc/elementor/class-elementor-widgets-init.php:174
+#: inc/elementor/class-elementor-widgets-init.php:199
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:104
+msgid "30"
+msgstr ""
+
+#: inc/elementor/widgets/class-service-elementor-widget.php:111
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:159
+msgid "Button Text"
+msgstr ""
+
+#: inc/elementor/widgets/class-service-elementor-widget.php:121
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:169
+msgid "Button Url"
+msgstr ""
+
+#. Author of the plugin
+msgid "CodingGeek"
+msgstr ""
+
+#: inc/elementor/widgets/class-service-elementor-widget.php:101
+msgid "Content"
+msgstr ""
+
+#: inc/elementor/class-elementor-widgets-init.php:152
+#: inc/elementor/class-elementor-widgets-init.php:176
+msgid "Elementor"
+msgstr ""
+
+#: inc/elementor/widgets/class-service-elementor-widget.php:113
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:161
+msgid "enter button text"
+msgstr ""
+
+#: inc/elementor/widgets/class-service-elementor-widget.php:103
+msgid "enter content"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:111
+msgid "Enter Experied Time"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:103
+msgid "enter price"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:93
+msgid "Enter Pricing Name"
+msgstr ""
+
+#: inc/elementor/widgets/class-service-elementor-widget.php:93
+msgid "enter service title"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:121
+msgid "Enter Short Description"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:141
+msgid "Enter Title"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:139
+msgid "Feature List"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:162
+msgid "Get Started"
+msgstr ""
+
+#: inc/elementor/widgets/class-service-elementor-widget.php:94
+msgid "Global coverage"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:147
+msgid "Is this feature support for this package ?"
+msgstr ""
+
+#: inc/elementor/widgets/class-service-elementor-widget.php:114
+msgid "learn-more"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:123
+msgid "Limited access"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:114
+msgid "mo"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:94
+msgid "personal"
+msgstr ""
+
+#: inc/elementor/class-elementor-widgets-init.php:201
+msgid "PHP"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:101
+msgid "Price"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:128
+msgid "Pricing Items"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:91
+msgid "Pricing Package Name"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:83
+msgid "Pricing Settings"
+msgstr ""
+
+#: inc/elementor/widgets/class-service-elementor-widget.php:83
+msgid "Service Settings"
+msgstr ""
+
+#: inc/elementor/class-elementor-widgets-init.php:219
+msgid "Smarat Addon"
+msgstr ""
+
+#. Name of the plugin
+#: inc/elementor/class-elementor-widgets-init.php:151
+#: inc/elementor/class-elementor-widgets-init.php:175
+#: inc/elementor/class-elementor-widgets-init.php:200
+msgid "Smart Addon"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:145
+msgid "Support for this package ?"
+msgstr ""
+
+#. Description of the plugin
+msgid "This is a helper plugin for Quray Theme."
+msgstr ""
+
+#: inc/elementor/widgets/class-service-elementor-widget.php:91
+msgid "Title"
+msgstr ""
+
+#: inc/elementor/widgets/class-service-elementor-widget.php:135
+msgid "upload small icon image size 68*68"
+msgstr ""
+
+#: inc/elementor/widgets/class-slider-one-elementor-widget.php:113
+msgid "you can enter mo/yr or as you want"
+msgstr ""
